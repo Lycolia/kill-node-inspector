@@ -1,10 +1,13 @@
 {
   "name": "kill-nodemon-inspector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Kill nodemon inspector process",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lycolia/kill-nodemon-inspector"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "bin": {
     "kill-inspector": "./dist/index.js"
