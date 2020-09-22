@@ -7,7 +7,7 @@
     "url": "https://github.com/Lycolia/kill-nodemon-inspector"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/@OWNER"
   },
   "bin": {
     "kill-inspector": "./dist/index.js"
