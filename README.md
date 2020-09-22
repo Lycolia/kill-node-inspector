@@ -4,4 +4,4 @@ Kill nodemon inspector process
 
 ## usage
 
-`kill-inspector [inspect-port]`
+`npx kill-inspector [inspect-port]`
