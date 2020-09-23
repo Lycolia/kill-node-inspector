@@ -7,6 +7,17 @@
 
 `npx kill-nodemon-inspector [inspect-port]`
 
+## History
+
+- 0.0.4
+  - bugfix
+- 0.0.3
+  - Windows supported
+- 0.0.2
+  - no change
+- 0.0.1
+  - create
+
 ## Roadmap
 
 - Add unit test on GitHub Actions
