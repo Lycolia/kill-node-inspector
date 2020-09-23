@@ -1,4 +1,4 @@
-# nodemon-inspector-killer
+# kill-nodemon-inspector
 
 - Kill nodemon inspector process
 - Required Node.js 12+
