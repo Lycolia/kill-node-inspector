@@ -52,6 +52,9 @@ function killInspector() {
   }
 }
 
+/**
+ * kill inspector process for windows
+ */
 function killForWindows() {
   const inspectorProcesses = execSync('netstat -oan').toString();
   const mats = inspectorProcesses.matchAll(/^.+?:(\d+?)\s+.+?(\d+)$/gm);
@@ -68,6 +71,9 @@ function killForWindows() {
   }
 }
 
+/**
+ * kill inspector process for linux
+ */
 function killForLinux() {
   const inspectorProcessId = execSync(
     `lsof -i -n | grep ${port} | awk '{print $2}'`
