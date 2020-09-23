@@ -1,6 +1,6 @@
 {
-  "name": "kill-nodemon-inspector",
-  "version": "0.0.3",
+  "name": "@lycolia/kill-nodemon-inspector",
+  "version": "0.0.4",
   "description": "Kill nodemon inspector process",
   "repository": {
     "type": "git",
@@ -11,7 +11,8 @@
   },
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "dev": "node inspect ./src/index.js"
   },
   "author": "Lycolia",
   "license": "MIT",
