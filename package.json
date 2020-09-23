@@ -1,19 +1,17 @@
 {
   "name": "kill-nodemon-inspector",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Kill nodemon inspector process",
   "repository": {
     "type": "git",
     "url": "https://github.com/Lycolia/kill-nodemon-inspector"
   },
   "bin": {
-    "kill-inspector": "./dist/index.js"
+    "kill-nodemon-inspector": "./src/index.js"
   },
-  "main": "./dist/index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "build": "npm run build-ts && npm run lint",
-    "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
-    "build-ts": "tsc"
+    "start": "node ./src/index.js"
   },
   "author": "Lycolia",
   "license": "MIT",
