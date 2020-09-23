@@ -1,5 +1,5 @@
 {
-  "name": "@lycolia/kill-nodemon-inspector",
+  "name": "kill-nodemon-inspector",
   "version": "0.0.4",
   "description": "Kill nodemon inspector process",
   "repository": {
