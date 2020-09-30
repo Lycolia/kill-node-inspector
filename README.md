@@ -1,7 +1,8 @@
 # kill-nodemon-inspector
 
 - Kill nodemon inspector process
-- Required Node.js 12+
+- Required Node.js 12+ and Linux
+  - Windows dose not support
 
 ## Usage
 
