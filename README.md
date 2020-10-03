@@ -10,6 +10,8 @@
 
 ## History
 
+- 0.0.7-1
+  - fix typo for readme
 - 0.0.7
   - add integration test (testing for inspector killed)
   - update `.eslintrc`
