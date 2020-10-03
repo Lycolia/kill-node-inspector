@@ -1,8 +1,8 @@
 {
   "extends": ["plugin:prettier/recommended", "prettier"],
   "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
+    "ecmaVersion": 2020,
+    "sourceType": "script"
   },
   "rules": {
     "semi": "error"
