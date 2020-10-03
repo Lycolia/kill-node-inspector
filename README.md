@@ -1,8 +1,7 @@
 # kill-node-inspector
 
 - Kill node inspector process
-- Required Node.js 12+ and Linux
-  - Windows dose not support
+- Required Node.js 12+
 
 ## Usage
 
@@ -10,6 +9,8 @@
 
 ## History
 
+- 0.0.7-2
+  - Windows resupported
 - 0.0.7-1
   - fix typo for readme
 - 0.0.7
@@ -41,9 +42,9 @@
 ### scripts
 
 - start
-  - Exec node
+  - Execute node
 - dev
-  - Exec node inspect
+  - Execute node cli inspector
 - test
   - `concurrently`
     - Following commands parallel execution
