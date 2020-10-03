@@ -6,10 +6,14 @@
 
 ## Usage
 
-`npx kill-nodemon-inspector [inspect-port]`
+- `npx kill-nodemon-inspector [inspect-port]` or `npx kill-nodemon-inspector`
 
 ## History
 
+- 0.0.5
+  - without nodemon
+  - allow option-less for execute
+  - rename package name
 - 0.0.4
   - bugfix
 - 0.0.3
