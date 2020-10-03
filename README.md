@@ -1,12 +1,12 @@
-# kill-nodemon-inspector
+# kill-node-inspector
 
-- Kill nodemon inspector process
+- Kill node inspector process
 - Required Node.js 12+ and Linux
   - Windows dose not support
 
 ## Usage
 
-- `npx kill-nodemon-inspector [inspect-port]` or `npx kill-nodemon-inspector`
+- `npx kill-node-inspector [inspect-port]` or `npx kill-node-inspector`
 
 ## History
 
