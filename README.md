@@ -10,6 +10,8 @@
 
 ## History
 
+- 0.0.6
+  - add unit test
 - 0.0.5
   - without nodemon
   - allow option-less for execute
@@ -25,6 +27,4 @@
 
 ## Roadmap
 
-- Add test
 - Support Windows
-- Support standalone mode, include nodemon
