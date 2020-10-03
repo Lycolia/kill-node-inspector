@@ -27,4 +27,6 @@
 
 ## Roadmap
 
+- Create CI
+  - GitHub Actions
 - Support Windows
